@@ -13,7 +13,7 @@ class Solution:
             while counts[key] > 2:
                 nums.remove(key)
                 counts[key] -= 1
-
+        
         return len(nums)
     
 

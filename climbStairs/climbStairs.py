@@ -1,12 +1,12 @@
 class Solution:
-
     def __init__(self) -> None:
         self.climbRecords = {}
 
     def climbStairs(self, n: int) -> int:
 
-        if n not in self.climbRecords:
-            
+        if n in self.climbRecords:
+            return(self.climbRecords[n])
+        else:
             if n == 0:
                 return 1
             sub1 = 0
@@ -18,7 +18,7 @@ class Solution:
 
             self.climbRecords[n] = sub1+sub2
 
-        return(self.climbRecords[n])
+            return(self.climbRecords[n])
     
 
 solution = Solution()

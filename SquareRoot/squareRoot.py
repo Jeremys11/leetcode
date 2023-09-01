@@ -11,7 +11,6 @@ class Solution:
             prev = i
         return prev
 
-
 x = 0
 
 solution = Solution()

@@ -7,7 +7,6 @@ class Solution:
 
 if __name__ == "__main__":
 
-
     nums1 = [5,6,4,4,4,6,34,5,6,4]
     val = 4
 

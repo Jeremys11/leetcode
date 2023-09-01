@@ -17,4 +17,5 @@ solution = Solution()
 
 nums = [-1,0,0,0,0,3,3]
 k = solution.removeDuplicates(nums=nums)
+
 print(k)

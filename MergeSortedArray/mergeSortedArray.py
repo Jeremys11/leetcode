@@ -14,7 +14,6 @@ class Solution:
             index += 1
 
 
-
 if __name__ == "__main__":
 
     nums2 = [1,3,6,7,9,11,16,18,19,24]

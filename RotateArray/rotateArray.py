@@ -19,5 +19,4 @@ k = 6
 
 solution = Solution()
 solution.rotate(nums=nums,k=k)
-
 print(nums)

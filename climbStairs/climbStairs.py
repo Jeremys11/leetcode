@@ -24,4 +24,5 @@ class Solution:
 solution = Solution()
 
 total = solution.climbStairs(45)
+
 print(total)

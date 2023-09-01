@@ -16,6 +16,7 @@ class Solution:
 nums = [1,1,2,2,24,45,5,6,6,6]
 
 solution = Solution()
+
 majorityElement = solution.majorityElement(nums=nums)
 
 print(majorityElement)
